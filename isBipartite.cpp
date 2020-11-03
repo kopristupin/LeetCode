@@ -1,7 +1,5 @@
 ﻿class Solution {
 public:
-
-
     bool isBipartite(vector<vector<int>>& graph) {
         vector<int>sets(101, 0);
         queue<int>q;
@@ -34,12 +32,8 @@ public:
                     }
                     y++;
                 }
-
             }
-
         }
         return true;
-
     }
-
 };
